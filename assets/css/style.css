@@ -9,8 +9,10 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #272829;
+  
+  color: #0d0f10;
+  font-family: 'Times New Roman', Times, serif ;
+
 }
 
 a {
@@ -29,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*--------------------------------------------------------------
@@ -78,7 +80,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: rgb(68, 83, 108);
   overflow-y: auto;
 }
 
@@ -96,12 +98,13 @@ h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
   color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: none;
 }
 
@@ -163,7 +166,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #b7fddd;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -174,7 +177,7 @@ h6 {
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #18191b;
 }
 
 .nav-menu a:hover,
@@ -228,7 +231,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/backimg.jpg") ;
   background-size: cover;
 }
 
@@ -252,6 +255,7 @@ h6 {
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -261,7 +265,8 @@ h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family:   font-family: Georgia, 'Times New Roman', Times, serif ;
+  ;
 }
 
 #hero p span {
@@ -1081,7 +1086,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #314561;
 }
 
 #footer .copyright {
